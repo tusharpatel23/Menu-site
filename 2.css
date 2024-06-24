@@ -1,0 +1,153 @@
+body{
+    background-image:url("wall.jpg");
+    height: auto;
+    font-family: Arial, Helvetica, sans-serif;
+  
+   
+}
+
+
+
+.navbar {
+    overflow: hidden;
+    background-color: #e37419;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .navbar a{
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  .dropdown {
+    float: center;
+    overflow: hidden;
+  }
+  .dropdown .dropbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: rgb(255, 193, 68);
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f2c0c0;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(255, 255, 255, 0.2);
+    z-index: 1;
+  }
+  .dropdown-content a {
+    float: none;
+    color: rgb(255, 255, 255);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  .dropdown-content a:hover {
+    background-color: hwb(32 32% 7%);
+  }
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+
+
+main{
+  
+    backdrop-filter: blur(6px);
+    border-radius: 20px;
+}
+
+h1,h2,p{
+    text-align: center;
+    color: rgb(255, 249, 240);
+}
+
+
+h1{
+    
+    font-size: 40px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+h2{
+    font-size: 30px;
+}
+
+
+
+.menu{
+    width: 150px;
+    background-color: rgb(255, 193, 122);
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    max-width: 50%;
+    border-radius: 50px;
+}
+
+img{
+    margin-top: 10px;
+    border-radius: 60%;
+   }
+
+hr{
+    
+    height: 10px;
+    border-radius: 24px;
+    background-color: rgb(255, 94, 0);
+    border-color: rgb(255, 253, 253);
+}
+
+.bottom-line{
+ margin-top: 0px;
+}
+
+.item p{
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: medium;
+}
+
+.dish{
+ 
+    width: 75%;
+}
+
+footer{
+    font-size: medium;
+}
+
+
+.price{
+    text-align: right;
+    width: 10px;
+}
+
+
+
+
+
+img {
+    padding: 5px;
+    transition: transform .2s;
+    width: 180px;
+    height: 140px;
+    margin: 0 auto;
+  }
+  
+  img:hover {
+    transform: scale(1.5);
+  }
